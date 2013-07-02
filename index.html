@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.0/pure-min.css">
+        <link rel="stylesheet" href="/static/css/typeplate.css">
+        <script>
+            setTimeout(function(){window.scrollTo(0,0)}, 1000);
+        </script>
+        <style>
+            body { font-family: sans-serif;}
+            a { color: rgb(232,106,4); text-decoration: none; }
+            a:hover { text-decoration: underline; }
+            header h1 { font-family: serif; margin-left: 50px; }
+            header cite, header p { margin-left: 150px; }
+            .content { margin-left: 150px; margin-right: 150px;}
+            .slide { margin-top: 275px; opacity: 0; }
+            .first.slide { margin-top: 100px; }
+            .hot { color: rgb(255,102,102); }
+            .easter { color: rgb(255,202,79);}
+            .love { color: rgb(198,229,217); }
+            .kiss { color: rgb(179,32,77); }
+            .you { color: rgb(255,61,127); }
+            .me { color: rgb(63,184,175); }
+            .we { color: rgb(127,199,175); }
+            @-webkit-keyframes blink {
+                0% {
+                    opacity:1;
+                }
+                50% {
+                    opacity:0;
+                }
+                100% {
+                    opacity:1;
+                }
+            }
+            @-moz-keyframes blink {
+                0% {
+                    opacity:1;
+                }
+                50% {
+                    opacity:0;
+                }
+                100% {
+                    opacity:1;
+                }
+            }
+            .beat {
+                -webkit-transition: all 1s ease-in-out;
+                -moz-transition: all 1s ease-in-out;
+                -o-transition: all 1s ease-in-out;
+                -ms-transition: all 1s ease-in-out;
+                transition: all 1s ease-in-out;
+                
+                -webkit-animation-direction: normal;
+                -webkit-animation-duration: 2s;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-name: blink;
+                -webkit-animation-timing-function: ease-in-out;
+                
+                -moz-animation-direction: normal;
+                -moz-animation-duration: 2s;
+                -moz-animation-iteration-count: infinite;
+                -moz-animation-name: blink;
+                -moz-animation-timing-function: ease-in-out;    
+            }
+
+            .heart { color: rgb(255,78,80); }
+            .happy { color: rgb(255,158,157); }
+            .cat { color: rgb(232,106,4); }
+            .exciting { color: rgb(105,210,231); }
+            .baby { color: rgb(123,232,238); }
+        </style>
+        <title>A Love Letter</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="giga">The Story of Us</h1>
+            <p class="gamma">Made With 100% <span class="love">Love</span>.</p>
+            <cite>By <span class="me">Michael Matuzak</span></cite>
+            <p><i>To: <span class="you">Sara Matuzak</span></i></p>
+        </header>
+        <section class="content pure-g-r">
+            <div class="first slide pure-u-1">
+                <h2 class="mega">The Begining</h2>
+                <p class="alpha">From my perspective it was just <span class="me">me</span>.</p>
+                <img src="/static/images/man.svg"> 
+            </div>
+
+            <div class="slide pure-u-1">
+                <h2 class="mega">The Meet</h2>
+                <p class="alpha">And then I met <span class="you">you</span>.</p>
+                <img src="/static/images/woman.svg">
+            </div>
+
+            <div class="slide pure-u-1">
+                <h2 class="mega">Romantic Grapes</h2>
+                <p class="alpha"><span class="we">We</span> had some wine and watched <b><span class="hot">Sex</span> and the City</b>. It was <span class="easter">Easter</span>. We <span class="kiss">kissed</span> for the first time.</p>
+                <img src="/static/images/man.svg">
+                <img src="/static/images/wine.svg">
+                <img src="/static/images/woman.svg">
+            </div>
+
+            <div class="slide pure-u-1">
+                <h2 class="mega">Falling in <span class="love">Love</span></h2>
+                <p class="alpha"><span class="me">I</span> fell in <span class="love">love</span>, and <span class="you">you</span> did the same.</p>
+                <img src="/static/images/man.svg">
+                <img class="heart" src="/static/images/heart.svg">
+                <img src="/static/images/woman.svg">
+            </div>
+
+            <div class="slide pure-u-1">
+                <h2 class="mega">University</h2>
+                <p class="alpha"><span class="we">We</span> even decided to go to university together.</p> 
+                <img src="/static/images/man.svg">
+                <img src="/static/images/college.svg">
+                <img src="/static/images/woman.svg">
+            </div>
+
+            <div class="slide pure-u-1">
+                <h2 class="mega">Traveling the World</h2>
+                <p class="alpha">Then afterwards <span class="we">we</span> traveled the world together.</p>
+                <img src="/static/images/man.svg">
+                <img src="/static/images/woman.svg">
+                <img src="/static/images/airplane.svg">
+                <img src="/static/images/eiffel-tower.svg">
+            </div>
+
+            <div class="slide pure-u-1">
+                <h2 class="mega">The Wedding</h2>
+                <p class="alpha">Then <span class="we">we</span> got married. This was the best day ever. I was so <span class="happy">happy</span> to find the person to spend the rest of my life with.</p>
+                <img src="/static/images/wedding.svg">
+            </div>
+
+            <div class="slide pure-u-1">
+                <h2 class="mega">The House</h2>
+                <p class="alpha">Then <span class="we">we</span> bought a house together. It was pretty scary, but in an <span class="exciting">exciting</span> way.</p>
+                <img src="/static/images/house.svg">
+            </div>
+
+            <div class="slide pure-u-1">
+                <h2 class="mega">The Cats</h2>
+                <p class="alpha">The house was pretty empty so we decided it needed some <span class="cat">feline</span> friends. We also bought a new coffee maker.</p>
+                <img src="/static/images/house.svg">
+                <img src="/static/images/cat.svg">
+                <img src="/static/images/cat.svg">
+                <img src="/static/images/coffee-maker.svg">
+            </div>
+ 
+            <div class="slide pure-u-1">
+                <h2 class="mega">The Pregnancy</h2>
+                <p class="alpha">Then <span class="you">you</span> got pregnant. Again it was both exciting and scary. <span class="we">We</span> went to doctor appointments together. They showed us pictures of our <span class="baby">baby</span>. <span class="we">We</span> listened to his <span class="heart beat">heart beat</span>.</p>
+                <img src="/static/images/man.svg">
+                <img src="/static/images/pregnant.svg">
+                <img src="/static/images/doctor.svg">
+            </div>
+
+            <div class="slide pure-u-1">
+                <h2 class="mega">The Rescue</h2>
+                <p class="alpha"><span class="we">We</span> found out that Glory needed a home. What's one more <span class="cat">cat</span> anyways?</p>
+                <img src="/static/images/house.svg">
+                <img src="/static/images/cat.svg">
+                <img src="/static/images/cat.svg">
+                <img src="/static/images/cat.svg">
+            </div>
+
+            <div class="slide pure-u-1">
+                <h2 class="mega">Alex P. Matuzak</h2>
+                <p class="alpha">Then our <span class="baby">baby</span> boy was born. It was the best day of our lives. <span class="we">We</span> both cried, but it was a good cry.</p>
+                <img src="/static/images/man.svg">
+                <img src="/static/images/woman.svg">
+                <img src="/static/images/baby.svg">
+                <img src="/static/images/crib.svg">
+            </div>
+
+            <div class="slide pure-u-1">
+                <h2 class="mega">Making This</h2>
+                <p class="alpha">I wanted to make this to tell you how much I <span class="love">love</span> you, and how much you impact the most important events in my life. 
+                When life becomes busy and hectic sometimes we forget to do the little things that made us fall in <span class="love">love</span> with each other in the first place. This is my way of saying thank you, for not letting me forget. 
+                I <span class="love">love</span> you so much, and I never want you to forget it.
+                All <span class="my">my</span> goals in life mean nothing if <span class="you">you</span> aren't <span class="happy">happy</span>. I've made a list of things we can try to do more of. It's not perfect or finished, but I think it's a start.
+                </p>
+
+                <ul class="alpha">
+                    <li>Write you a <span class="love">love</span> letter</li>
+                    <li>Take you to the movies</li>
+                    <li>Take you out to dinner</li>
+                    <li>Have a picnic together</li>
+                    <li>Take you to the Getty</li>
+                    <li>Take you to see a play</li>
+                    <li>Take Alex and you to the park</li>
+                    <li>Take a family walk together</li>
+                    <li>Meditate together</li>
+                    <li>Read together</li>
+                    <li>Play with the kitties together</li>
+                    <li><span class="hot">Sexy</span> time</li>
+                    <li>Take a swim</li>
+                </ul>
+                
+            </div>
+
+            <div class="slide pure-u-1">
+                <h2 class="mega">The Future</h2>
+                <p class="alpha">Keep <span class="love">loving</span> each other!</p>
+                <img src="/static/images/man.svg">
+                <img src="/static/images/woman.svg">
+                <img src="/static/images/baby.svg">
+                <img src="/static/images/cat.svg">
+                <img src="/static/images/cat.svg">
+                <img src="/static/images/cat.svg">
+                <img src="/static/images/heart.svg">
+            </div>
+
+            <div class="slide pure-u-1">
+                <h2 class="mega">Attributions</h2>
+                <ul class="alpha">
+                    <li><a href="http://thenounproject.com/noun/wine/#icon-No3505">Wine</a> - Katie M Westbrook, from <a href="http://thenounproject.com/">The Noun Project</a></li>
+                    <li><a href="http://thenounproject.com/noun/eiffel-tower/#icon-No891">Eiffel Tower</a> - Camila Bertoco, from <a href="http://thenounproject.com/">The Noun Project</a></li>
+                    <li><a href="http://thenounproject.com/noun/wedding/#icon-No3716">Wedding</a> - Luis Prado, from <a href="http://thenounproject.com/">The Noun Project</a></li>
+                    <li><a href="http://thenounproject.com/noun/cat/#icon-No17811">Cat</a> - QING LI, from <a href="http://thenounproject.com">The Noun Project</a></li>
+                    <li><a href="http://thenounproject.com/noun/baby-crib/#icon-No6371">Baby Crib</a> - Mert Gutav, from <a href="http://thenounproject.com/">The Noun Project</a></li>
+                </ul>
+
+                <p class="alpha">All the other icons also came from <a href="http://thenounproject.com">The Noun Project</a>.</p>
+                <p class="alpha">I also used <a href="http://purecss.io/">Pure</a> and <a href="http://typeplate.com/">Typeplate</a> to make this site.</p>
+            </div>
+        </section>
+
+        <script src="/static/js/main.js"></script>
+    </body>
+</html>
