@@ -19,7 +19,7 @@ var checkSlide = function () {
     }
 };
 
-var timer = setInterval(checkSlide, 3000);
+var timer = setInterval(checkSlide, 1000);
 
 function elementInViewport(el) {
     var rect = el.getBoundingClientRect()
