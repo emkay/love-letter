@@ -9,6 +9,10 @@
         </script>
         <style>
             body { font-family: sans-serif;}
+            a { color: rgb(232,106,4); text-decoration: none; }
+            a:hover { text-decoration: underline; }
+            header h1 { font-family: serif; margin-left: 50px; }
+            header cite, header p { margin-left: 150px; }
             .content { margin-left: 150px; margin-right: 150px;}
             .slide { margin-top: 275px; opacity: 0; }
             .first.slide { margin-top: 100px; }
@@ -19,15 +23,55 @@
             .you { color: rgb(255,61,127); }
             .me { color: rgb(63,184,175); }
             .we { color: rgb(127,199,175); }
+            @-webkit-keyframes blink {
+                0% {
+                    opacity:1;
+                }
+                50% {
+                    opacity:0;
+                }
+                100% {
+                    opacity:1;
+                }
+            }
+            @-moz-keyframes blink {
+                0% {
+                    opacity:1;
+                }
+                50% {
+                    opacity:0;
+                }
+                100% {
+                    opacity:1;
+                }
+            }
+            .beat {
+                -webkit-transition: all 1s ease-in-out;
+                -moz-transition: all 1s ease-in-out;
+                -o-transition: all 1s ease-in-out;
+                -ms-transition: all 1s ease-in-out;
+                transition: all 1s ease-in-out;
+                
+                -webkit-animation-direction: normal;
+                -webkit-animation-duration: 2s;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-name: blink;
+                -webkit-animation-timing-function: ease-in-out;
+                
+                -moz-animation-direction: normal;
+                -moz-animation-duration: 2s;
+                -moz-animation-iteration-count: infinite;
+                -moz-animation-name: blink;
+                -moz-animation-timing-function: ease-in-out;    
+            }
+
+            .heart { color: rgb(255,78,80); }
             .happy { color: rgb(255,158,157); }
             .cat { color: rgb(232,106,4); }
             .exciting { color: rgb(105,210,231); }
-            .heart { color: rgb(255,78,80); }
             .baby { color: rgb(123,232,238); }
-            header h1 { font-family: serif; margin-left: 50px; }
-            header cite, header p { margin-left: 150px; }
         </style>
-        <title>My Love</title>
+        <title>A Love Letter</title>
     </head>
     <body>
         <header>
@@ -105,7 +149,7 @@
  
             <div class="slide pure-u-1">
                 <h2 class="mega">The Pregnancy</h2>
-                <p class="alpha">Then <span class="you">you</span> got pregnant. Again it was both exciting and scary. <span class="we">We</span> went to doctor appointments together. They showed us pictures of our <span class="baby">baby</span>. <span class="we">We</span> listened to his <span class="heart">heart</span> beat.</p>
+                <p class="alpha">Then <span class="you">you</span> got pregnant. Again it was both exciting and scary. <span class="we">We</span> went to doctor appointments together. They showed us pictures of our <span class="baby">baby</span>. <span class="we">We</span> listened to his <span class="heart beat">heart beat</span>.</p>
                 <img src="/static/images/man.svg">
                 <img src="/static/images/pregnant.svg">
                 <img src="/static/images/doctor.svg">
@@ -165,6 +209,20 @@
                 <img src="/static/images/cat.svg">
                 <img src="/static/images/cat.svg">
                 <img src="/static/images/heart.svg">
+            </div>
+
+            <div class="slide pure-u-1">
+                <h2 class="mega">Attributions</h2>
+                <ul class="alpha">
+                    <li><a href="http://thenounproject.com/noun/wine/#icon-No3505">Wine</a> - Katie M Westbrook, from <a href="http://thenounproject.com/">The Noun Project</a></li>
+                    <li><a href="http://thenounproject.com/noun/eiffel-tower/#icon-No891">Eiffel Tower</a> - Camila Bertoco, from <a href="http://thenounproject.com/">The Noun Project</a></li>
+                    <li><a href="http://thenounproject.com/noun/wedding/#icon-No3716">Wedding</a> - Luis Prado, from <a href="http://thenounproject.com/">The Noun Project</a></li>
+                    <li><a href="http://thenounproject.com/noun/cat/#icon-No17811">Cat</a> - QING LI, from <a href="http://thenounproject.com">The Noun Project</a></li>
+                    <li><a href="http://thenounproject.com/noun/baby-crib/#icon-No6371">Baby Crib</a> - Mert Gutav, from <a href="http://thenounproject.com/">The Noun Project</a></li>
+                </ul>
+
+                <p class="alpha">All the other icons also came from <a href="http://thenounproject.com">The Noun Project</a>.</p>
+                <p class="alpha">I also used <a href="http://purecss.io/">Pure</a> and <a href="http://typeplate.com/">Typeplate</a> to make this site.</p>
             </div>
         </section>
 
